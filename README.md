@@ -4,6 +4,7 @@
 
 - [chicagobikelanes](#chicagobikelanes)
 - [Updating this guide](#updating-this-guide)
+- [This repository has moved from its original location.](#this-repository-has-moved-from-its-original-location)
 - [About The Code](#about-the-code)
   - [Attributions](#attributions)
   - [Setup](#setup)
@@ -41,6 +42,14 @@ node node_modules/doctoc/doctoc.js README.md
 ```
 
 See [Setup Section](#setup) for details on installing dependencies. You must follow the instructions in that section to completion before you can run the table of contents update command.
+
+# This repository has moved from its original location.
+
+If you still have checked out the old location, use the following command to set the new location:
+
+```
+git remote set-url origin https://github.com/StrongTownsChicago/chicago-bike-lane-map.git
+```
 
 # About The Code
 

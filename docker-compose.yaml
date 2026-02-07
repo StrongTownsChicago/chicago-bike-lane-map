@@ -9,9 +9,6 @@ services:
       - ./:/var/www/html
       # Create a virtual parent directory for config files to match the expected file structure
       - ./config/config.json:/var/www/config.json
-      - ./config/paths.json:/var/www/paths.json
-      - ./config/style.json:/var/www/style.json
-      - ./config/wards.geojson:/var/www/wards.geojson
       # We then need to run a command to install all the dependencies (there is probably a cleaner way to do this)
     command: >
       bash -c "
