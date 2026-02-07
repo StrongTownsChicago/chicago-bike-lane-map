@@ -2,17 +2,16 @@
   require("vendor/autoload.php");
 
   // Pack bike path data into PHP variable
-  $paths = json_decode(file_get_contents("../paths.json"), true); // The "true" puts it in array mode
+  $paths = json_decode(file_get_contents("./data/paths.json"), true); // The "true" puts it in array mode
 
-  $pathstyle = json_decode(file_get_contents("../style.json"), true);
-
-  // Pack config data into PHP variable (WARNING: DO NOT INSERT INTO JAVASCRIPT, there is sensitive information in here that must not appear on client's device)
-  $config = json_decode(file_get_contents("../config.json"), true);
+  $pathstyle = json_decode(file_get_contents("./data/style.json"), true);
 
   // Simplified geojson file pulled from https://github.com/datamade/chi-councilmatic/blob/main/data/final/chicago_shapes.geojson
-  // Then enriched with aldermanic data from here https://data.cityofchicago.org/resource/c6ie-9e6c.json
-  $wards = json_decode(file_get_contents("../wards.geojson"), true);
+  // Then enriched with aldermanic data from here https://data.cityofchicago.org/resource/c6ie-9e6c.json (ward-data.json)
+  $wards = json_decode(file_get_contents("./data/wards.geojson"), true);
 
+  // Pack config data into PHP variable (WARNING: DO NOT INSERT INTO JAVASCRIPT, there is sensitive information in here that must not appear on client's device)
+  $config = require("settings.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,56 +46,8 @@
   </head>
   <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-      <!-- navbar-expand-md means the navbar should expand to fill if screen is larger than medium-sized. Otherwise, put the buttons in a hamburger. -->
-      <div class="container-xxl">
-        <!-- Main title with link -->
-
-        <!-- Toggle button for mobile nav -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Aria things are for screen readers -->
-
-        <!-- Here are all of the links that can be collapsed into a hamburger menu -->
-        <div class="collapse navbar-collapse justify-content-center align-center" id="main-nav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="about.php" class="nav-link">About</a>
-            </li>
-            <li>
-              <a href="index.php" class="nav-link">Map</a>
-            </li>
-            <li>
-              <a href="contact.php" class="nav-link">Contact</a>
-            </li>
-            <!-- Inclusion of the "Data" menu option is dependent on your config.json file. If you set this option to true in your config.json, your path data will be available for download, and the "Raw Data" menu option will appear on your pages. If not, the data will not be publicly accessible. -->
-            <?php
-              # 
-              if($config["make_path_data_public"]) {
-                echo '
-                  <li>
-                    <a href="getdata.php" class="nav-link">Raw Data</a>
-                  </li>
-                ';
-              }
-            ?>
-            <!-- Inclusion of the "Github" menu option is dependent on the presence of a github link in your config.json file. If no github is listed, none will be attributed. -->
-            <?php
-              if ($config["github"]){
-                echo '
-                  <li>
-                    <a href="' . $config["github"] . '" class="nav-link">Github</a>
-                  </li>
-                ';
-              }
-            ?>
-          </ul>
-        </div>
-
-      </div>
-    </nav>
+    <!-- The navbar is in its own isolated file, to make sure every page has the same navbar. -->
+    <?php echo file_get_contents("./chunks/navbar"); ?>
 
     <!-- Pack data structure back into JSON for map script -->
     <script>

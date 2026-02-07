@@ -1,0 +1,25 @@
+# Changelog
+
+## 2.0.0 - 2025-02-06
+
+### Added
+
+- Check bike lane data into version control
+- Check ward data into version control
+- Check style data into version control
+- New setup script for creating configuration file
+- Alternate configuration storage method
+- Table of contents in README.md
+
+### Fixed
+
+- Update README.md to comply with new code changes
+
+### Changed
+
+- Switch configuration data from JSON to PHP
+- Move navbar into separate file (find a better way to do this)
+
+## 1.0.0
+
+Initial release.
