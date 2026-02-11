@@ -316,10 +316,18 @@ You can easily run this application using Docker without installing PHP or other
    git clone https://github.com/strongtownschicago/chicago-bike-lane-map.git
    cd chicago-bike-lane-map
    ```
-2. Create a `config` directory in the root containing the json files that the application expects (`config.json`, `paths.json`, `style.json`, and `wards.geojson`).
-  See [this previous commit](https://github.com/matt-hendrick/chicago-bike-lane-map/commit/e2cbfe335777f2e447f58499821044b88f598708) for one example of what those files could look like.
-3. Run `docker-compose up`
-4. Visit http://localhost:8080 in your browser
+
+2. Start the Docker container:
+   ```bash
+   docker-compose up
+   ```
+
+3. Visit http://localhost:8080 in your browser
+
+**Note:**
+- The Docker container automatically creates a `settings.php` file with placeholder SMTP credentials on startup. The contact form won't work with these placeholder values, but the rest of the site will function normally.
+- If you need the contact form to work, run `node utilities/setup.js` locally to create a proper `settings.php` file before starting Docker.
+- All data files (paths.json, style.json, ward-data.json, wards.geojson) are included in the `data/` directory.
 
 ## Utility scripts
 

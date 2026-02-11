@@ -7,13 +7,17 @@ services:
     volumes:
       # Mount the repository as the document root
       - ./:/var/www/html
-      # Create a virtual parent directory for config files to match the expected file structure
-      - ./config/config.json:/var/www/config.json
-      # We then need to run a command to install all the dependencies (there is probably a cleaner way to do this)
+    environment:
+      - NON_INTERACTIVE=true
     command: >
       bash -c "
-        apt-get update && apt-get install -y git unzip &&
+        apt-get update && apt-get install -y git unzip curl &&
+        curl -fsSL https://deb.nodesource.com/setup_20.x | bash - &&
+        apt-get install -y nodejs &&
+        cd /var/www/html &&
+        npm install &&
+        node utilities/setup.js &&
         curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer &&
-        cd /var/www/html && composer install &&
+        composer install &&
         apache2-foreground
       "
