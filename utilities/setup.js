@@ -13,13 +13,21 @@ if (!isNonInteractive) {
 // Assume we should run the script unless we fail a condition.
 let proceed = true
 
-// Handle scenario where file exists (skip check in non-interactive mode)
-if (!isNonInteractive && fs.existsSync(settings_file_name)) {
-    let replace = readline.question("It looks like you already have a settings.php file. Would you like to replace it? [y/n]");
-
-    if ((replace == "") || (replace[0].toLowerCase() != "y")) {
+// Handle scenario where file exists (skip check in non-interactive mode and just exit program)
+if (fs.existsSync(settings_file_name)) {
+    // If we're in non-interactive mode ("dummy mode") and the file name already exists, just stop.
+    // No need to create a dummy file if we have the actual file ready to go.
+    if (isNonInteractive) {
         proceed = false;
-        console.log("Abort.");
+    }
+    // Otherwise, if we're in normal mode, go ahead and ask the user what to do.
+    else {
+        let replace = readline.question("It looks like you already have a settings.php file. Would you like to replace it? [y/n]");
+
+        if ((replace == "") || (replace[0].toLowerCase() != "y")) {
+            proceed = false;
+            console.log("Abort.");
+        }
     }
 }
 

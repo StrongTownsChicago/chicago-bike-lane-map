@@ -1,9 +1,6 @@
 <?php
   require("vendor/autoload.php");
 
-  // Pack JSON into PHP variable
-  $paths = json_decode(file_get_contents("../paths.json"), true); // The "true" puts it in array mode
-
   // Pack config data into PHP variable (WARNING: DO NOT INSERT INTO JAVASCRIPT, there is sensitive information in here that must not appear on client's device)
   $config = require("settings.php");
 ?>
