@@ -1,2 +1,11 @@
+# Ignore installed dependencies
 vendor
 node_modules
+
+# Ignore configuration secrets
+config.json
+settings.php
+settings-backup.php
+
+# Ignore the ignore folder
+ignore

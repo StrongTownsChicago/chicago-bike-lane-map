@@ -1,65 +1,190 @@
-# Requirements for development
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [chicagobikelanes](#chicagobikelanes)
+- [Updating this guide](#updating-this-guide)
+- [This repository has moved from its original location.](#this-repository-has-moved-from-its-original-location)
+- [About The Code](#about-the-code)
+  - [Attributions](#attributions)
+  - [Setup](#setup)
+    - [Necessary Programs](#necessary-programs)
+    - [Windows instructions](#windows-instructions)
+    - [Linux instructions](#linux-instructions)
+    - [Verifying your installation](#verifying-your-installation)
+    - [Installing dependencies](#installing-dependencies)
+  - [Creating a configuration file (settings.php)](#creating-a-configuration-file-settingsphp)
+    - [Other Configuration Options](#other-configuration-options)
+    - [Debug Configuration Options](#debug-configuration-options)
+  - [style.json](#stylejson)
+  - [paths.json](#pathsjson)
+  - [Docker Setup](#docker-setup)
+    - [Prerequisites](#prerequisites)
+    - [Quick Start](#quick-start)
+  - [Utility scripts](#utility-scripts)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# chicagobikelanes
+
+A map of all current and planned protected bicycle infrastructure in the city of Chicago.
+
+This is a work-in-progress.
+
+# Updating this guide
+
+This README.md is meant for developers of this codebase.
+
+Whenever you update this guide with a new section or heading, make sure to update the table of contents. There is an included NPM package to do this. Once you have installed dependencies, run the command below to update the table of contents:
+
+```
+node node_modules/doctoc/doctoc.js README.md
+```
+
+See [Setup Section](#setup) for details on installing dependencies. You must follow the instructions in that section to completion before you can run the table of contents update command.
+
+# This repository has moved from its original location.
+
+If you still have checked out the old location, use the following command to set the new location:
+
+```
+git remote set-url origin https://github.com/StrongTownsChicago/chicago-bike-lane-map.git
+```
+
+# About The Code
+
+## Attributions
+
+This website is built using Bootstrap CSS framework: [https://getbootstrap.com](https://getbootstrap.com)
+
+The map is built with Leaflet.js ([https://leafletjs.com/](https://leafletjs.com/))
+and uses OpenStreetMap map data ([https://www.openstreetmap.org](https://www.openstreetmap.org)).
+
+
+## Setup
+
+There are two methods for running this website locally - you can use PHP's built-in development server and install the needed programs to your machine manually, or you can set up a Docker container to run the site.
+
+The instructions below will cover a manual installation. For information about installing via Docker, skip to [Docker Setup](#docker-setup)
+
+### Necessary Programs
+
+Before you can run this code locally, you must install the following programs:
+
+- PHP
+- Composer (a library manager for PHP)
 - NodeJS
-- PHP or Docker (explained in detail later)
-- Python (if you wish to use the included utility scripts)
+- Node Package Manager (NPM) (a library manager for NodeJS)
 
-# Directory setuptopojson
+Installation instructions will vary based on your operating system.
+
+### Windows instructions
+
+On Windows, you'll have to go to the websites for each of the programs you need and download the installers.
+
+- PHP: [https://www.php.net/downloads.php](https://www.php.net/downloads.php)
+- Composer: [https://getcomposer.org/download/](https://getcomposer.org/download/)
+- NodeJS and NPM: [https://nodejs.org/en/download](https://nodejs.org/en/download)
+
+You might need to reboot after you finish the installations in order to use them from your terminal.
+
+### Linux instructions
+
+On Linux, you can install `php`, `composer`, `nodejs`, and `npm` from your package manager.
+
+For example, on Debian-based systems, you can run the following command to get the four programs you need:
 
 ```
-Project folder
-|___chicago-bike-lane-map <-- Host from this folder
-|   |___about.php
-|   |___contact.php
-|   |___index.php
-|   |___...
-|
-|___paths.json <-- This is where I store info for the bike lanes
-|___config.json <-- This stores info for the website - map parameters, mailing info, etc.
+sudo apt install php composer nodejs npm
 ```
 
-## config.json
+### Verifying your installation
 
-`config.json` will need to look like this:
+After you've installed the needed programs, check the version of each one as shown below to verify that they are usable.
 
-```json
-{
-  "mail":
-  {
-    "smtp_server": "smtp.your_email_host.com",
-    "smtp_username": "contact@yourdomain.net",
-    "smtp_password": "yourSecurePassword",
-    "port": 465,
-    "security": "ssl",
-    "destination": "contact@yourdomain.net"
-  },
-  "github": "https://github.com/srkovnar/chicago-bike-lane-map",
-  "in_progress": false,
-  "show_location": false,
-  "zoom_location": false,
-  "make_path_data_public": true,
-
-  "debug_showOutlines": false,
-  "debug_showPoints": false
-}
+```
+php --version
 ```
 
-All parameters show above are mandatory for proper functioning of the website.
+```
+composer --version
+```
 
-You will have to configure your own mail parameters based on the mailing service you are using. Most website hosting services will include a free email address that you can use for the contact form along with your subscription to their platform. You might have to do a bit of digging to figure out how to set things up, but most of the information should be pretty straightforward:
-- `smtp_server`: The server where you are hosting the email address that is *sending* the email.
-  - If you are using a website hosting service, this will be the address of their email server.
-- `smtp_username`: The username for the email that will be *sending* the email. You MUST own this email.
-- `smtp_password`: The password that corresponds to the email given in `smtp_username`.
-- `port`: Usually 465, may depend on your hosting service.
-- `security`: This is usually ssl. Like the port, you might have to double-check.
-- `destination`: If you want automatically-generated emails to be redirected to a different inbox, you can specify that here. Sometimes this is useful for practical purposes - you may want to have an unmonitored email address that is linked to your website's domain, and another, easier-to-access account (like a Gmail) that you can actually reply from. But this is not necessary and is up to personal preference.. Otherwise, leave it the same as `smtp_username`.
+```
+node --version
+```
+
+```
+npm --version
+```
+
+Versions of programs used in development of this code are shown below. In most cases, slight variance will not cause major issues, but if you encounter problems, that's something you can try to address.
+
+Program  | Version
+---------|---------
+PHP      | 8.4.16
+Composer | 2.8.8
+NodeJS   | 22.17.0
+NPM      | 10.9.2
+
+### Installing dependencies
+
+Open a terminal within the project directory.
+
+Running `ls` or `dir` (depending on your operating system and terminal) should show the project files, i.e. composer.json, package.json, index.php, etc. If you do not see these files, you are in the wrong directory.
+
+Run `composer install` to download all needed PHP libraries. These are needed to run the website.
+
+Run `npm i` to download all needed NodeJS libraries. Right now, these are only needed for development and are not needed by the website itself.
+
+## Creating a configuration file (settings.php)
+
+In order for the contact form to work properly, you will need to create a `settings.php` file to store your information. This file is ignored by version control (git), and SHOULD NEVER BE SAVED ANYWHERE PUBLIC.
+
+There is a provided script that will create the file for you. To run the script, run the following command in a terminal from within the project directory:
+
+```
+node utilities/setup.js
+```
+
+You will need to provide the script with the following information:
+
+Field Name  | Description
+------------|-------------
+SMTP Server | The hostname of your mailing server (i.e. smtp.gmail.com, smtp.hostinger.com). You can usually find this in the documentation for your email hosting provider.
+SMTP Username | The username you use to log in to the email from which Contact Form responses should be sent. You must have access to a valid email account that will be used to send the emails.
+SMTP Password | The password you use to log in to the email from which Contact Form responses should be sent.You must have access to a valid email account that will be used to send the emails.
+SMTP Destination | The destination address for Contact Form responses. This should be an email that can be checked by a human. This does not have to be the same as the SMTP username, but for simplicity, it often is. In our case, we use two different mailboxes - one provided by our hosting service, and a Gmail that can be more easily accessed by our staff.
 
 **PLEASE NOTE:** You may be confused that the address *sending* the email is the one that you have access to. Shouldn't it be the other way around? The answer is no. You cannot send emails from someone else's email address, but what you *can* do is alter the "ReplyTo" property on the email. The automatically-generated email that shows up in your inbox will be both sent and received by you, but when you click "Reply", it will put in the email of the user who submitted the contact form.
 
+### Other Configuration Options
+
+The generated configuration file will have a number of options set to FALSE by default. Some of them alter the behavior of the map. Below is a table describing their usage.
+
+Option          | Description
+----------------|-------------
+`in_progress`   | If true, a popup will be shown when the map loads, indicating that the map is still unfinished.
+`show_location` | If true, the map will attempt to ask for the user's location. If the user allows location services for this website, a pin will be placed on the map showing their approximate position, as well as the estimated accuracy. This can be helpful, but also a bit annoying.
+`zoom_location` | If true, and if `show_location` is also true, the map will zoom to the user's location once it loads.
+
+### Debug Configuration Options
+
+Plotting out all of the paths is tediuous, and it's easy to make mistakes. I've done my best to set up the `paths.json` in a way where you can easily break paths down into segments for ease of modification, but there are also a couple debug options you can enable in the configuration file to visualize what's going on.
+
+Option               | Description
+---------------------|-------------
+`debug_showOutlines` | This will show you the "hitbox" of your lines. Since Leaflet line objects have single-pixel width, I had to create invisible bubbles around the paths to make clicking on them possible. Turning this option to `true` will make visible these bubbles. You'll have to modify `map.js` to tweak the size of them.
+`debug_showPoints`   | This will place a dot on each individual coordinate present in `paths.json`. This makes it a little easier to identify which coordinates have already been plotted.
+`debug_logNames`     | This will log each path's name to your browser's terminal (yes, your browser has a terminal output - on Firefox, the keyboard shortcut to open it is `ctrl`+`shift`+`J`.). If a path has an error and is breaking the map, this makes it easier to figure out which path has the error.
+
 ## style.json
 
-As of 2025-04-21, this is also required. I offloaded the map assigning color and formatting for each path type into a separate file
+This file describes the styling used for each type of path shown on the map. These are referenced by the map script, and should match with the types of paths used in `data/paths.json`.
+
+As with the other JSON files, this is stored in the `data` directory.
+
+Below is an example of the format used in this file:
 
 ```json
 {
@@ -123,21 +248,6 @@ As of 2025-04-21, this is also required. I offloaded the map assigning color and
   }
 }
 ```
-
-### Website Configuration Options
-
-- `github`: A link to your Github page. If present, a link will be added at the top of the page for your Github.
-- `make_path_data_public`: Make `paths.json` publicly-accessible on this domain at `/getdata.php`. This will also create a header link for this page with the label "Raw Data".
-- `in_progress`: If true, a popup will be shown when the map loads indicating that the map is still unfinished.
-- `show_location`: If true, the map will attempt to ask for the user's location. If the user allows location services for this website, a pin will be placed on the map showing their position. This can be helpful, but also a bit annoying.
-- `zoom_location`: If true, and if `show_location` is also true, the map will zoom to the user's location once it loads.
-
-### Debug Configuration Options
-
-Plotting out all of the paths is tediuous, and it's easy to make mistakes. I've done my best to set up the `paths.json` in a way where you can easily break paths down into segments for ease of modification, but there are also a couple debug options you can enable in the `config.json` to visualize what's going on.
-
-- `debug_showOutlines` will show you the "hitbox" of your lines. Since Leaflet line objects have single-pixel width, I had to create invisible bubbles around the paths to make clicking on them possible. Turning this option to `true` will make visible these bubbles. You'll have to modify `map.js` to tweak the size of them.
-- `debug_showPoints` will place a dot on each individual coordinate present in `paths.json`. This makes it a little easier to identify which coordinates have already been plotted.
 
 ## paths.json
 
@@ -203,16 +313,23 @@ You can easily run this application using Docker without installing PHP or other
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/srkovnar/chicago-bike-lane-map.git
+   git clone https://github.com/strongtownschicago/chicago-bike-lane-map.git
    cd chicago-bike-lane-map
    ```
-2. Create a `config` directory in the root containing the json files that the application expects (`config.json`, `paths.json`, `style.json`, and `wards.geojson`).
-  See [this previous commit](https://github.com/matt-hendrick/chicago-bike-lane-map/commit/e2cbfe335777f2e447f58499821044b88f598708) for one example of what those files could look like.
-3. Run `docker-compose up`
-4. Visit http://localhost:8080 in your browser
 
+2. Start the Docker container:
+   ```bash
+   docker-compose up
+   ```
 
-# Utility scripts
+3. Visit http://localhost:8080 in your browser
+
+**Note:**
+- The Docker container automatically creates a `settings.php` file with placeholder SMTP credentials on startup. The contact form won't work with these placeholder values, but the rest of the site will function normally.
+- If you need the contact form to work, run `node utilities/setup.js` locally to create a proper `settings.php` file before starting Docker.
+- All data files (paths.json, style.json, ward-data.json, wards.geojson) are included in the `data/` directory.
+
+## Utility scripts
 
 This repository includes a utility script folder, which includes a nodejs script used to assign colors to the ward boundaries polygons (if the file `wards.geojson` is present). This script should be run beforehand, on your local machine, to augment your `wards.geojson` file with hexcode color assignments that can be interpreted by the mapping script `map.js`.
 
@@ -227,7 +344,7 @@ In order to run the script, you must do the following:
 3. Run the script. Example usage shown below.
 
 ```bash
-node ./utilities/generateColors.js ../wards.geojson -c 8dd3c7 ffffb3 bebada fb8072 -o ./output.geojson
+node ./utilities/generateColors.js ./data/wards_no_colors.geojson -c 8dd3c7 ffffb3 bebada fb8072 -o ./wards.geojson
 ```
 
 Three arguments are required:

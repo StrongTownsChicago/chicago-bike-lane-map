@@ -2,10 +2,10 @@
   require('vendor/autoload.php');
 
   // Get config info from hidden file
-  $config = json_decode(file_get_contents("../config.json"), true); // The "true" puts it in array mode
+  $config = require("settings.php");
 
   //echo "Starting up...<br>";
-    
+  
   // Parse POST data
   // The global $_POST variable allows you to access the data sent with the POST method by name
   // To access the data sent with the GET method, you can use $_GET
@@ -62,103 +62,54 @@
       echo 'Message could not be sent. Mailer Error: '.$mail->ErrorInfo; 
   }
   // else {
-  //     echo 'Message has been sent.'; 
+  //     echo 'Message has been sent.';
   // }
-
-  //header("Location: index.php");
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Bootstrap stylesheet -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <head>
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-  <!-- Boostrap script -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Boostrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-  <!--Leaflet stylesheet -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    
-  <!--Leaflet script -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!--Leaflet stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
-  <!-- Style for the map box on this page -->
-  <link rel="stylesheet" href="custom.css">
-</head>
-<body>
+    <!--Leaflet script -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-    <!-- navbar-expand-md means the navbar should expand to fill if screen is larger than medium-sized. Otherwise, put the buttons in a hamburger. -->
-    <div class="container-xxl">
-      <!-- Main title with link -->
+    <!-- Style for the map box on this page -->
+    <link rel="stylesheet" href="custom.css">
+  </head>
+  <body>
 
-      <!-- Toggle button for mobile nav -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Aria things are for screen readers -->
+    <!-- The navbar is in its own isolated file, to make sure every page has the same navbar. -->
+    <?php echo file_get_contents("./chunks/navbar"); ?>
 
-      <!-- Here are all of the links that can be collapsed into a hamburger menu -->
-      <div class="collapse navbar-collapse justify-content-center align-center" id="main-nav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="about.php" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="index.php" class="nav-link">Map</a>
-          </li>
-          <li>
-            <a href="contact.php" class="nav-link">Contact</a>
-          </li>
-          <!-- Inclusion of the "Data" menu option is dependent on your config.json file. If you set this option to true in your config.json, your path data will be available for download, and the "Raw Data" menu option will appear on your pages. If not, the data will not be publicly accessible. -->
-          <?php
-              # 
-              if($config["make_path_data_public"]) {
-                echo '
-                  <li>
-                    <a href="getdata.php" class="nav-link">Raw Data</a>
-                  </li>
-                ';
-              }
-            ?>
-            <!-- Inclusion of the "Github" menu option is dependent on the presence of a github link in your config.json file. If no github is listed, none will be attributed. -->
-            <?php
-              if ($config["github"]){
-                echo '
-                  <li>
-                    <a href="' . $config["github"] . '" class="nav-link">Github</a>
-                  </li>
-                ';
-              }
-            ?>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Thank you message -->
-  <section id="thankyou">
-    <div class="container-xl">
-      <div class="row justify-content-center">
-        <div class="col-md-10 col-lg-8 text-center">
-          <h1 class="display-5 text-center py-3">Thank you for your submission!</h1>
-          <p>
-            We'll get back to you as soon as we can!
-          </p>
+    <!-- Thank you message -->
+    <section id="thankyou">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-lg-8 text-center">
+            <h1 class="display-5 text-center py-3">Thank you for your submission!</h1>
+            <p>
+              We'll get back to you as soon as we can!
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-lg-8 justify-content-center text-center">
+            <a class="btn btn-dark fs-4 mx-5 mb-3 px-4 py-2 rounded-pill" href="/">
+              Return to homepage
+            </a>
+          </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-10 col-lg-8 justify-content-center text-center">
-          <a class="btn btn-dark fs-4 mx-5 mb-3 px-4 py-2 rounded-pill" href="/">
-            Return to homepage
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Return to main page -->
-</body>
+    <!-- Return to main page -->
+  </body>
 </html>

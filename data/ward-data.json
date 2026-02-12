@@ -1,0 +1,880 @@
+[ {
+  "location" : "POINT (-87.63025141399062 41.7906677191873)",
+  "zipcode" : "60621",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 966-5336",
+  "address" : "5707 South Wentworth Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6840/5688/7738",
+  "ward" : "20",
+  "city_hall_state" : "IL",
+  "alderman" : "Taylor, Jeanette B.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward20@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.71254636250174 41.846147903054565)",
+  "zipcode" : "60623",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 762-1771",
+  "address" : "2500 South St. Louis Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-9491/9492/3325",
+  "ward" : "22",
+  "city_hall_state" : "IL",
+  "alderman" : "Rodriguez, Michael D.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward22@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300, Office 30",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.73021219204163 41.86614469477946)",
+  "zipcode" : "60624",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 533-2400",
+  "address" : "1158 South Keeler Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6839/6849",
+  "ward" : "24",
+  "city_hall_state" : "IL",
+  "alderman" : "Scott, Monique L.",
+  "city_hall_city" : "Chicago",
+  "email" : "ward24@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.67841788835032 41.85224518559459)",
+  "zipcode" : "60608",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 523-4100",
+  "address" : "2100 West Cermak Road",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-0209/1997/0584",
+  "ward" : "25",
+  "city_hall_state" : "IL",
+  "alderman" : "Sigcho-Lopez, Byron",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward25@cityofchicago.org",
+  "website" : {
+    "url" : "https://www.25thward.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200, Office 11",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.692316912449 41.87758996814665)",
+  "zipcode" : "60612",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 533-0900",
+  "address" : "2622 West Jackson Boulevard, Suite 200A",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3066/3097/3166",
+  "ward" : "28",
+  "city_hall_state" : "IL",
+  "alderman" : "Ervin, Jason C.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward28@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.AldermanErvin.com/"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200, Office 18",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.74223193063077 41.93170020380832)",
+  "zipcode" : "60639",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 824-2000",
+  "address" : "4606 West Diversey Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6102/6123",
+  "ward" : "31",
+  "city_hall_state" : "IL",
+  "alderman" : "Cardona, Jr., Felix",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward31@cityofchicago.org",
+  "website" : {
+    "url" : "https://www.felix31.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200, Office 19",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.67533353648614 41.930025458043694)",
+  "zipcode" : "60614",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 248-1330",
+  "address" : "2657 North Clybourn Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6567/6574",
+  "ward" : "32",
+  "city_hall_state" : "IL",
+  "alderman" : "Waguespack, Scott",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward32@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.ward32.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.68994499363095 41.9028790569398)",
+  "zipcode" : "60602",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 395-0143",
+  "address" : "2511 West Division Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6853/4198",
+  "ward" : "26",
+  "city_hall_state" : "IL",
+  "alderman" : "Fuentes, Jessica L.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward26@cityofchicago.org",
+  "city_hall_address" : "121 N. La Salle St. Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.80700865598575 41.94955968466883)",
+  "zipcode" : "60634",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 283-3838",
+  "address" : "3821 North Harlem Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6857/7947/1836",
+  "ward" : "38",
+  "city_hall_state" : "IL",
+  "alderman" : "Sposato, Nicholas",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward38@cityofchicago.org",
+  "website" : {
+    "url" : "http://aldermansposato.com/"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200, Office 2",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.68658173977015 41.88126893284509)",
+  "zipcode" : "60612",
+  "city" : "Chicago",
+  "ward_phone" : "(312) 432-1995",
+  "address" : "4 North Western Avenue, Unit 1C",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6124/6125",
+  "ward" : "27",
+  "city_hall_state" : "IL",
+  "alderman" : "Burnett, Jr., Walter",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward27@cityofchicago.org",
+  "website" : {
+    "url" : "http://aldermanburnett.com/"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300, Office 38",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.6819497564818 41.95894228986967)",
+  "zipcode" : "60618",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 868-4747",
+  "address" : "4243 North Lincoln Avenue",
+  "state" : "Illinois",
+  "city_hall_phone" : "(312) 744-4021/0446/3778",
+  "ward" : "47",
+  "city_hall_state" : "IL",
+  "alderman" : "Martin, Matthew J.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward47@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.aldermanmartin.com"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200, Office 7",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.66777445467486 42.00776549837537)",
+  "zipcode" : "60626",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 338-5796",
+  "address" : "1447 West Morse Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3067/3080/1672",
+  "ward" : "49",
+  "city_hall_state" : "IL",
+  "alderman" : "Hadden, Maria E.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward49@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.49thward.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.78988085962634 41.92375020104243)",
+  "zipcode" : "60707; 60622",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 745-4636",
+  "address" : "6560 West Fullerton Avenue, Unit C118, Suite A; 2246 West Chicago Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-4324/4325/3701",
+  "ward" : "36",
+  "city_hall_state" : "IL",
+  "alderman" : "Villegas, Gilbert",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward36@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.36thward.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.64870672342613 41.92803651624157)",
+  "zipcode" : "60614",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 348-9500",
+  "address" : "2523 North Halsted Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3071/5685",
+  "ward" : "43",
+  "city_hall_state" : "IL",
+  "alderman" : "Knudsen, Timothy R.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward43@cityofchicago.org",
+  "website" : {
+    "url" : "https://ward43.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.65923528396505 41.98352752486251)",
+  "zipcode" : "60660",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 784-5277",
+  "address" : "1129  West Bryn Mawr Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6860/6834",
+  "ward" : "48",
+  "city_hall_state" : "IL",
+  "alderman" : "Manaa-Hoppenworth, Leni",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward48@cityofchicago.org",
+  "website" : {
+    "url" : "https://www.the48thward.org/"
+  },
+  "city_hall_address" : "121 North Lasalle, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.6423975379871 41.69761926135305)",
+  "zipcode" : "60628",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 881-9300",
+  "address" : "10805 South Halsted Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-4810/4811",
+  "ward" : "21",
+  "city_hall_state" : "IL",
+  "alderman" : "Mosley, Ronnie L.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward21@cityofchicago.org",
+  "city_hall_address" : "121 North Lasalle, Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.74929345475809 41.89508654852823)",
+  "zipcode" : "60651",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 379-0960",
+  "address" : "4924 West Chicago Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-8019/5686/1454",
+  "ward" : "37",
+  "city_hall_state" : "IL",
+  "alderman" : "Mitts, Emma",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward37@cityofchicago.org",
+  "website" : {
+    "url" : "https://www.cityofchicago.org/city/en/about/wards/37.html"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300, Office 45",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.70953804126412 41.968005438203654)",
+  "zipcode" : "60625",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 840-7880",
+  "address" : "4747 North Sawyer Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3373/3379/1367",
+  "ward" : "33",
+  "city_hall_state" : "IL",
+  "alderman" : "Rodriguez Sanchez, Rossana",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward33@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.70402724196445 41.99737352590612)",
+  "zipcode" : "60659",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 262-1050",
+  "address" : "2949 West Devon Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6855/5680/3180",
+  "ward" : "50",
+  "city_hall_state" : "IL",
+  "alderman" : "Silverstein, Debra L.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward50@cityofchicago.org",
+  "website" : {
+    "url" : "http://50thwardchicago.com"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300, Office 24",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.63227535353653 41.8837645981034)",
+  "zipcode" : "60602",
+  "city" : "Chicago",
+  "ward_phone" : "(312) 744-6820",
+  "address" : "121 North LaSalle Street, Room 300",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6820/6829",
+  "ward" : "34",
+  "city_hall_state" : "IL",
+  "alderman" : "Conway, William",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward34@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.63227535353653 41.8837645981034)",
+  "zipcode" : "60602",
+  "city" : "Chicago",
+  "ward_phone" : "(312) 642-4242",
+  "address" : "121 North LaSalle Street, Room 200, Office 6",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 642-4242",
+  "ward" : "42",
+  "city_hall_state" : "IL",
+  "alderman" : "Reilly, Brendan",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward42@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 200, Office 6",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.60284026002992 41.81696894167837)",
+  "zipcode" : "60653",
+  "city" : "Chicago",
+  "ward_phone" : "(312)744-2690",
+  "address" : "928 East 43rd Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-2690/8438",
+  "ward" : "4",
+  "city_hall_state" : "IL",
+  "alderman" : "Robinson, Lamont J.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward04@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.6539821039758 41.940630765022604)",
+  "zipcode" : "60657",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 525-6034",
+  "address" : "3223 North Sheffield Avenue, Suite A",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3073/3133",
+  "ward" : "44",
+  "city_hall_state" : "IL",
+  "alderman" : "Lawson, Bennett R.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward44@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.72281222681525 41.7749649984353)",
+  "zipcode" : "60629",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 581-8000",
+  "address" : "6500 South Pulaski Road",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3058/3076",
+  "ward" : "13",
+  "city_hall_state" : "IL",
+  "alderman" : "Quinn, Marty",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward13@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.68953146924507 41.8232612536738)",
+  "zipcode" : "60632",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 475-6783",
+  "address" : "3868 South Archer Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3068/4025",
+  "ward" : "12",
+  "city_hall_state" : "IL",
+  "alderman" : "Ramirez, Julia M.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward12@cityofchicago.org",
+  "city_hall_address" : "121 North Lasalle, Room 200",
+  "city_hall_zipcode" : "60632"
+}
+, {
+  "location" : "POINT (-87.70207068555804 41.7863770030716)",
+  "zipcode" : "60629",
+  "city" : "Chicago",
+  "ward_phone" : "773-236-0117",
+  "address" : "3124 West 59th Street",
+  "state" : "IL",
+  "city_hall_phone" : "312-744-6580/6511",
+  "ward" : "14",
+  "city_hall_state" : "IL",
+  "alderman" : "Gutierrez, Jeylu B.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward14@cityofchicago.org",
+  "city_hall_address" : "121 North Lasalle, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.68782832298886 41.91693959033054)",
+  "zipcode" : "60647",
+  "city" : "Chicago",
+  "ward_phone" : "(872) 206-2685",
+  "address" : "1958 North Milwaukee Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3063 / 3074/6813",
+  "ward" : "1",
+  "city_hall_state" : "IL",
+  "alderman" : "La Spata, Daniel",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward01@cityofchicago.org",
+  "website" : {
+    "url" : "https://www.the1stward.com/"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300, Office 13",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.53543100590585 41.70447282489701)",
+  "zipcode" : "60617",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 768-8138",
+  "address" : "10500 South Ewing Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3078/5687",
+  "ward" : "10",
+  "city_hall_state" : "IL",
+  "alderman" : "Chico, Peter",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward10@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.64587536247019 41.82712971799162)",
+  "zipcode" : "60609",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 254-6677",
+  "address" : "3659 South Halsted Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6663 / 6664",
+  "ward" : "11",
+  "city_hall_state" : "IL",
+  "alderman" : "Lee, Nicole T.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward11@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.69116329942362 41.80114728284117)",
+  "zipcode" : "60632",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 823-1539",
+  "address" : "2650 West 51st Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-4321 / 4322",
+  "ward" : "15",
+  "city_hall_state" : "IL",
+  "alderman" : "Lopez, Raymond A.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward15@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.the15thward.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.63227535353653 41.8837645981034)",
+  "zipcode" : "60602",
+  "city" : "Chicago",
+  "ward_phone" : "(312) 744-6836 / 9867/6213",
+  "address" : "121 North LaSalle Street, Room 300",
+  "state" : "IL",
+  "ward" : "2",
+  "alderman" : "Hopkins, Brian",
+  "email" : "office@aldermanhopkins.com",
+  "website" : {
+    "url" : "https://www.aldermanhopkins.com/"
+  }
+}
+, {
+  "location" : "POINT (-87.65351329474628 41.7795132569961)",
+  "zipcode" : "60621",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 306-1981",
+  "address" : "1137 West 63rd Street, Unit C",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6850 / 6854",
+  "ward" : "16",
+  "city_hall_state" : "IL",
+  "alderman" : "Coleman, Stephanie D.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward16@cityofchicago.org",
+  "website" : {
+    "url" : "https://www.16thward.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.72147416646396 41.7403970065889)",
+  "zipcode" : "60652",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 284-5057",
+  "address" : "8359 South Pulaski Road",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6856 / 3087",
+  "ward" : "18",
+  "city_hall_state" : "IL",
+  "alderman" : "Curtis, Derrick G.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward18@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.65699302450297 41.75055928067845)",
+  "zipcode" : "60620",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 783-3672",
+  "address" : "1344 West 79th Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3435 / 3438",
+  "ward" : "17",
+  "city_hall_state" : "IL",
+  "alderman" : "Moore, David H.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward17@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.David.Moore@cityofchicago.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.68170835166211 41.70446089084829)",
+  "zipcode" : "60643",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 238-8766",
+  "address" : "10400 South Western Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3072 / 5682 /2679",
+  "ward" : "19",
+  "city_hall_state" : "IL",
+  "alderman" : "O'Shea, Matthew J.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward19@cityofchicago.org",
+  "website" : {
+    "url" : "http://the19thward.com/"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.776264015314 41.79346683020117)",
+  "zipcode" : "60638",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 582-4444",
+  "address" : "6247 South Archer Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6828 / 5683",
+  "ward" : "23",
+  "city_hall_state" : "IL",
+  "alderman" : "Tabares, Silvana",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward23@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 200, Office 14",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.78299907262357 41.90928313249773)",
+  "zipcode" : "60639",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 237-6460",
+  "address" : "6272 West North Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-8805 / 5486",
+  "ward" : "29",
+  "city_hall_state" : "IL",
+  "alderman" : "Taliaferro, Chris",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward29@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.aldtaliaferro.com"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.62604643102554 41.802355762759134)",
+  "zipcode" : "60609",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 373-9273",
+  "address" : "5046 South State Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-8734 / 6712/3380",
+  "ward" : "3",
+  "city_hall_state" : "IL",
+  "alderman" : "Dowell, Pat",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward03@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.ward03chicago.com"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 302",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.80791272486715 42.011575450983166)",
+  "zipcode" : "60631",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 631-2241",
+  "address" : "7231 West Touhy Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3942/3208",
+  "ward" : "41",
+  "city_hall_state" : "IL",
+  "alderman" : "Napolitano, Anthony V.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward41@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.chicago41.com"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.65725830786599 41.96480726420425)",
+  "zipcode" : "60640",
+  "city" : "Chicago",
+  "ward_phone" : "(312) 744-6831",
+  "address" : "4544 North Broadway",
+  "state" : "IL",
+  "city_hall_phone" : "312-744-6831/5694",
+  "ward" : "46",
+  "city_hall_state" : "IL",
+  "alderman" : "Clay, Angela",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward46@cityofchicago.org",
+  "city_hall_address" : "121 N. La Salle Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.57015458712299 41.766408479170444)",
+  "zipcode" : "60649",
+  "city" : "Chicago",
+  "ward_phone" : "(312) 744-6832",
+  "address" : "2230 East 71st Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6832/3195",
+  "ward" : "5",
+  "city_hall_state" : "IL",
+  "alderman" : "Yancy, Desmon C.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward05@cityofchicago.org",
+  "city_hall_address" : "121 N. LaSalle Street Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.5686091420442 41.722442957241576)",
+  "zipcode" : "60617",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 731-7777",
+  "address" : "2249 East 95th Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6833 / 3127/4096",
+  "ward" : "7",
+  "city_hall_state" : "IL",
+  "alderman" : "Mitchell, Gregory I.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward07@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.gregmitchell7thward.org/"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 304",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.60474482318516 41.739116033451914)",
+  "zipcode" : "60619",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 874-3300",
+  "address" : "8539 South Cottage Grove Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3075/6825",
+  "ward" : "8",
+  "city_hall_state" : "IL",
+  "alderman" : "Harris, Michelle A.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward08@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.Aldermanmichelleharris.net"
+  },
+  "city_hall_address" : "121 Noth LaSalle Street, Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.62172135901446 41.68999053867947)",
+  "zipcode" : "60628",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 785-1100",
+  "address" : "34 East 112th Place",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6838 / 3061",
+  "ward" : "9",
+  "city_hall_state" : "IL",
+  "alderman" : "Beale, Anthony",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward09@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.Ward09.com"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.73303178301441 41.96829475983867)",
+  "zipcode" : "60630",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 736-5594",
+  "address" : "4200 West Lawrence Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-7242/7243/3023",
+  "ward" : "39",
+  "city_hall_state" : "IL",
+  "alderman" : "Nugent, Samantha",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward39@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.ward39@cityofchicago.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.68960791902764 41.983823999137584)",
+  "zipcode" : "60659",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 654-1867",
+  "address" : "5620 North Western Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6858/7248/3511",
+  "ward" : "40",
+  "city_hall_state" : "IL",
+  "alderman" : "Vasquez, Jr., Andre",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward40@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.40thward.org"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.62405576399621 41.73878805068228)",
+  "zipcode" : "60619",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 241-3100",
+  "address" : "8541 South State Street",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6868",
+  "ward" : "6",
+  "city_hall_state" : "IL",
+  "alderman" : "Hall, William E.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward06@cityofchicago.org",
+  "city_hall_address" : "121 N. LaSalle St. Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.76236826862518 41.93873912421377)",
+  "zipcode" : "60641",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 628-7874",
+  "address" : "5418 W. Belmont Ave",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-3304/3305",
+  "ward" : "30",
+  "city_hall_state" : "IL",
+  "alderman" : "Cruz, Ruth",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward30@cityofchicago.org",
+  "city_hall_address" : "121 N. LaSalle St. Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.77895653994487 41.97351788796481)",
+  "zipcode" : "60630",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 853-0799",
+  "address" : "6020 West Higgins Ave STE C",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6841/5684",
+  "ward" : "45",
+  "city_hall_state" : "IL",
+  "alderman" : "Gardiner, James M.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward45@cityofchicago.org",
+  "website" : {
+    "url" : "http://www.aldermangardiner.com"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.71650804469363 41.93447944793928)",
+  "zipcode" : "60618",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 887-3772",
+  "address" : "2934 North Milwaukee Avenue, Unit C",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6835/3109/6845",
+  "ward" : "35",
+  "city_hall_state" : "IL",
+  "alderman" : "Quezada, Anthony J.",
+  "city_hall_city" : "Chicago",
+  "email" : "ward35@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+ ]

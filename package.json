@@ -8,16 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/srkovnar/chicago-bike-lane-map.git"
+    "url": "git+https://github.com/strongtownschicago/chicago-bike-lane-map.git"
   },
   "author": "srkovnar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/srkovnar/chicago-bike-lane-map/issues"
+    "url": "https://github.com/strongtownschicago/chicago-bike-lane-map/issues"
   },
-  "homepage": "https://github.com/srkovnar/chicago-bike-lane-map#readme",
+  "homepage": "https://github.com/strongtownschicago/chicago-bike-lane-map#readme",
   "dependencies": {
     "argparse": "^2.0.1",
+    "doctoc": "^2.2.1",
+    "readline-sync": "^1.4.10",
     "topojson": "^3.0.2"
   }
 }
