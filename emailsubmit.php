@@ -87,7 +87,7 @@
   <body>
 
     <!-- The navbar is in its own isolated file, to make sure every page has the same navbar. -->
-    <?php echo file_get_contents("./chunks/navbar"); ?>
+    <?php include_once("./chunks/navbar.php"); ?>
 
     <!-- Thank you message -->
     <section id="thankyou">
