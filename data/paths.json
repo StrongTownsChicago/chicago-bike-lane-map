@@ -5053,5 +5053,46 @@
         "type": "ripbl_incomplete"
       }
     ]
+  },
+  {
+    "name": "Portage Park",
+    "segments": [
+      {
+        "name": "Sunnyside (Narragansett to Milwaukee)",
+        "coordinates": [
+          [41.962503, -87.756317],
+          [41.96227162824375, -87.78681802983255]
+        ]
+      },
+      {
+        "name": "Berteau (Narragansett to Milwaukee)",
+        "coordinates": [
+          [41.95664139934333, -87.786660387503],
+          [41.957246489306115, -87.75136550284354]
+        ]
+      },
+      {
+        "name": "Melvina (Addison to Gunnison)",
+        "coordinates": [
+          [41.945878568569235, -87.78137430284394],
+          [41.96863841157942, -87.78315997393828]
+        ]
+      },
+      {
+        "name": "Menard (Berteau to Lawrence)",
+        "coordinates": [
+          [41.957012125572376, -87.77211236235988],
+          [41.96759526852929, -87.77237488381061]
+        ]
+      },
+      {
+        "name": "Long (Irving Park to Lawrence)",
+        "coordinates": [
+          [41.95576754622865, -87.762260335054],
+          [41.96756276847633, -87.76258177400803]
+        ]
+      }
+    ],
+    "type": "bikeway_incomplete"
   }
 ]
