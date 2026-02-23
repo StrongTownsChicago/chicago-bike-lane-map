@@ -112,6 +112,15 @@ for (let k in bicycle_paths) {
         popup_text += `<br><b>Completion:</b> ${segment.completion}<br>`;
       }
 
+      // Look for links in both the segment and the whole path.
+      if (path.links && (path.links.length > 0)) {
+        for (let i = 0; i < path.links.length; i++) {
+          // popup_text += `<tr><td>${path.links[i]["name"]}</td><td>${path.links[i]["address"]}</td></tr></table>`;
+          // Never mind. The table looks stupid. Try again later with better bootstrap.
+          popup_text += `<br><b>${path.links[i]["name"]}</b>:<br><a href="${path.links[i]["address"]}" target="_blank">${path.links[i]["address"]}</a>`
+        }
+        // popup_text += "</table>"
+      }
       if (segment.links && (segment.links.length > 0)) {
         for (let i = 0; i < segment.links.length; i++) {
           // popup_text += `<tr><td>${path.links[i]["name"]}</td><td>${path.links[i]["address"]}</td></tr></table>`;
