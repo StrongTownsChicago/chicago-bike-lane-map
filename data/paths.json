@@ -5076,20 +5076,6 @@
                41.9624841404774,
                -87.75633635377574
             ]
-         ],
-         "links":[
-            {
-               "name":"Project Website",
-               "address":"https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/PortageParkNeighborhoodBikeNetwork.html"
-            },
-            {
-               "name":"Online Survey",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUM1JOUjhQWUJSTzhCMlNCSTJQQUlFSkw2Vy4u"
-            },
-            {
-               "name":"Community Meeting RSVP (Thursday, March 5, 2026)",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUQ1lXSE1WR0laMTZUQVVSV1ZINUIwOEYzSi4u"
-            }
          ]
       },
       {
@@ -5103,20 +5089,6 @@
                41.95703068776642,
                -87.75153074210873
             ]
-         ],
-         "links":[
-            {
-               "name":"Project Website",
-               "address":"https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/PortageParkNeighborhoodBikeNetwork.html"
-            },
-            {
-               "name":"Online Survey",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUM1JOUjhQWUJSTzhCMlNCSTJQQUlFSkw2Vy4u"
-            },
-            {
-               "name":"Community Meeting RSVP (Thursday, March 5, 2026)",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUQ1lXSE1WR0laMTZUQVVSV1ZINUIwOEYzSi4u"
-            }
          ]
       },
       {
@@ -5142,20 +5114,6 @@
                41.94582592128872,
                -87.7813783551379
             ]
-         ],
-         "links":[
-            {
-               "name":"Project Website",
-               "address":"https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/PortageParkNeighborhoodBikeNetwork.html"
-            },
-            {
-               "name":"Online Survey",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUM1JOUjhQWUJSTzhCMlNCSTJQQUlFSkw2Vy4u"
-            },
-            {
-               "name":"Community Meeting RSVP (Thursday, March 5, 2026)",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUQ1lXSE1WR0laMTZUQVVSV1ZINUIwOEYzSi4u"
-            }
          ]
       },
       {
@@ -5169,20 +5127,6 @@
                41.95680069894575,
                -87.77200775469248
             ]
-         ],
-         "links":[
-            {
-               "name":"Project Website",
-               "address":"https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/PortageParkNeighborhoodBikeNetwork.html"
-            },
-            {
-               "name":"Online Survey",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUM1JOUjhQWUJSTzhCMlNCSTJQQUlFSkw2Vy4u"
-            },
-            {
-               "name":"Community Meeting RSVP (Thursday, March 5, 2026)",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUQ1lXSE1WR0laMTZUQVVSV1ZINUIwOEYzSi4u"
-            }
          ]
       },
       {
@@ -5196,23 +5140,23 @@
                41.96756875132835,
                -87.76258043339149
             ]
-         ],
-         "links":[
-            {
-               "name":"Project Website",
-               "address":"https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/PortageParkNeighborhoodBikeNetwork.html"
-            },
-            {
-               "name":"Online Survey",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUM1JOUjhQWUJSTzhCMlNCSTJQQUlFSkw2Vy4u"
-            },
-            {
-               "name":"Community Meeting RSVP (Thursday, March 5, 2026)",
-               "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUQ1lXSE1WR0laMTZUQVVSV1ZINUIwOEYzSi4u"
-            }
          ]
       }
    ],
-   "type":"bikeway_incomplete"
+   "type":"bikeway_incomplete",
+   "links":[
+      {
+         "name":"Project Website",
+         "address":"https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/PortageParkNeighborhoodBikeNetwork.html"
+      },
+      {
+         "name":"Online Survey",
+         "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUM1JOUjhQWUJSTzhCMlNCSTJQQUlFSkw2Vy4u"
+      },
+      {
+         "name":"Community Meeting RSVP (Thursday, March 5, 2026)",
+         "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUQ1lXSE1WR0laMTZUQVVSV1ZINUIwOEYzSi4u"
+      }
+    ]
   }
 ]
