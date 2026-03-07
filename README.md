@@ -21,7 +21,11 @@
   - [Docker Setup](#docker-setup)
     - [Prerequisites](#prerequisites)
     - [Quick Start](#quick-start)
-  - [Utility scripts](#utility-scripts)
+- [Ward Overlay](#ward-overlay)
+  - [Overview](#overview)
+  - [Gathering Raw Data](#gathering-raw-data)
+  - [Apply colors](#apply-colors)
+  - [Enrich with Ward Data](#enrich-with-ward-data)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -37,7 +41,7 @@ This README.md is meant for developers of this codebase.
 
 Whenever you update this guide with a new section or heading, make sure to update the table of contents. There is an included NPM package to do this. Once you have installed dependencies, run the command below to update the table of contents:
 
-```
+```bash
 node node_modules/doctoc/doctoc.js README.md
 ```
 
@@ -329,27 +333,63 @@ You can easily run this application using Docker without installing PHP or other
 - If you need the contact form to work, run `node utilities/setup.js` locally to create a proper `settings.php` file before starting Docker.
 - All data files (paths.json, style.json, ward-data.json, wards.geojson) are included in the `data/` directory.
 
-## Utility scripts
+# Ward Overlay
 
-This repository includes a utility script folder, which includes a nodejs script used to assign colors to the ward boundaries polygons (if the file `wards.geojson` is present). This script should be run beforehand, on your local machine, to augment your `wards.geojson` file with hexcode color assignments that can be interpreted by the mapping script `map.js`.
+## Overview
 
-The `map.js` will inspect the geojson file for the `color` property. If it is present, the associated polygon on the map will be assigned that color. If it is not present, the default color will be used.
+In addition to bicycle infrastructure data, this map features a ward overlay, including data about the ward boundaries and the serving alderpeople. The final file, `wards.geojson`, will occasionally need to be updated when ward boundaries shift or alderpeople change. This section of the guide details how to update this data.
+
+There are three steps:
+
+- Gathering raw data
+- Adding colors
+- Adding aldermanic data so it appears when clicked ("enriching")
+
+## Gathering Raw Data
+
+The raw data is pulled from multiple sources:
+
+File Name                                | Description        | Source
+-----------------------------------------|--------------------|--------
+`data/raw/ward_boundaries_raw.geojson`   | Ward boundary data | [City Portal](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards-2023-Map/cdf7-bgn3). The exact URL may change in the future but you should be able to search for it from the homepage.
+`data/raw/ward_data.json`                | Ward information   | [City Portal](https://data.cityofchicago.org/resource/c6ie-9e6c.json). For this one you can just download the raw file directly, no need to export.
+
+You can replace these at any time.
+
+## Apply colors
+
+**NOTE:** This script will replace whatever output you specify. You only need to re-run this if the **boundaries have changed**. After this step, you will need to re-enrich the output with ward data.
+
+This repository includes a NodeJS script to automatically apply colors to the geoJSON metadata in the boundaries file. It is located at `utilities/generateColors.js`.
 
 Assigning colors makes it easier to differentiate ward boundaries.
 
-In order to run the script, you must do the following:
+**The output of this script should go in the intermediate data folder (`data/intermediate`) so as not to overwrite wards.geojson unnecessarily.**
 
-1. Install NodeJS v20 or later on your development computer. *v18 will not work!*
-2. Run `npm install` on your computer to get all of the required packages.
-3. Run the script. Example usage shown below.
+Typical colors used:
+
+- #8dd3c7 (Green)
+- #ffffb3 (Yellow)
+- #bebada (Purple)
+- #fb8072 (Red)
+- #e1a54b (Orange)
+
+Usage is as follows:
 
 ```bash
-node ./utilities/generateColors.js ./data/wards_no_colors.geojson -c 8dd3c7 ffffb3 bebada fb8072 -o ./wards.geojson
+node ./utilities/generateColors.js ./data/raw/ward_boundaries_raw.geojson -o ./data/intermediate/ward_boundaries.geojson -c 8dd3c7 ffffb3 bebada fb8072 e1a54b
 ```
 
-Three arguments are required:
-1. The input GeoJSON ward boundary file,
-2. Hexcodes of four colors for the wards, and
-3. An output file destination (this can be the same as the input file destination if you want to overwrite your original file. No warning will be issued.).
+You can specify as many colors as you wish - the script will attempt to assign colors so that same-colored wards are not touching. Typically you need to select five or six distinct colors. If you notice that two wards with the same color are touching, you'll need to add another color.
 
-This updated GeoJSON file can then be provided to the website, and the colors will be used to fill the polygons of the ward boundaries on the map. This process can also be done manually, of course, but the script makes it easier.
+Theoretically this algorithm could be reworked to assign exactly four colors based on the Four-Color Map Theorem, but I'm not a mathematician.
+
+## Enrich with Ward Data
+
+This repository includes a NodeJS script to automatically enrich your geoJSON ward file with data about each ward's alderperson. Usage is shown below:
+
+```bash
+node ./utilities/enrichWardData.js -m ./data/intermediate/ward_boundaries.geojson -a ./data/raw/ward_data.json -o ./data/wards.geojson
+```
+
+The `map.js` will inspect the geojson file for the `color` property. If it is present, the associated polygon on the map will be assigned that color. If it is not present, the default color will be used.

@@ -134463,7 +134463,7 @@
         "lastName": "Taylor",
         "email": "Ward20@cityofchicago.org",
         "wardPhone": "(773) 966-5336",
-        "address": "5707 South Wentworth Avenue"
+        "address": "5401 South Wentworth Avenue, Suite 19E"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -182094,9 +182094,9 @@
         "globalid": "{5EFBE372-72FB-4702-8C3C-BA882825EEF1}",
         "ward": "27",
         "fillColor": "#ffffb3",
-        "alderman": "Burnett, Jr., Walter",
-        "firstName": "Walter",
-        "lastName": "Burnett, Jr.",
+        "alderman": "Burnett, Walter R.",
+        "firstName": "Walter R.",
+        "lastName": "Burnett",
         "email": "Ward27@cityofchicago.org",
         "wardPhone": "(312) 432-1995",
         "address": "4 North Western Avenue, Unit 1C"
@@ -324269,7 +324269,7 @@
         "lastName": "Gardiner",
         "email": "Ward45@cityofchicago.org",
         "wardPhone": "(773) 853-0799",
-        "address": "6020 West Higgins Ave STE C"
+        "address": "5460 N. Milwaukee Ave"
       },
       "geometry": {
         "type": "MultiPolygon",

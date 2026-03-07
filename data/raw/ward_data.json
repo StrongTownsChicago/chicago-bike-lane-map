@@ -1,20 +1,4 @@
 [ {
-  "location" : "POINT (-87.63025141399062 41.7906677191873)",
-  "zipcode" : "60621",
-  "city" : "Chicago",
-  "ward_phone" : "(773) 966-5336",
-  "address" : "5707 South Wentworth Avenue",
-  "state" : "IL",
-  "city_hall_phone" : "(312) 744-6840/5688/7738",
-  "ward" : "20",
-  "city_hall_state" : "IL",
-  "alderman" : "Taylor, Jeanette B.",
-  "city_hall_city" : "Chicago",
-  "email" : "Ward20@cityofchicago.org",
-  "city_hall_address" : "121 North LaSalle Street, Room 300",
-  "city_hall_zipcode" : "60602"
-}
-, {
   "location" : "POINT (-87.71254636250174 41.846147903054565)",
   "zipcode" : "60623",
   "city" : "Chicago",
@@ -85,25 +69,6 @@
   "city_hall_zipcode" : "60602"
 }
 , {
-  "location" : "POINT (-87.74223193063077 41.93170020380832)",
-  "zipcode" : "60639",
-  "city" : "Chicago",
-  "ward_phone" : "(773) 824-2000",
-  "address" : "4606 West Diversey Avenue",
-  "state" : "IL",
-  "city_hall_phone" : "(312) 744-6102/6123",
-  "ward" : "31",
-  "city_hall_state" : "IL",
-  "alderman" : "Cardona, Jr., Felix",
-  "city_hall_city" : "Chicago",
-  "email" : "Ward31@cityofchicago.org",
-  "website" : {
-    "url" : "https://www.felix31.org"
-  },
-  "city_hall_address" : "121 North LaSalle Street, Room 200, Office 19",
-  "city_hall_zipcode" : "60602"
-}
-, {
   "location" : "POINT (-87.67533353648614 41.930025458043694)",
   "zipcode" : "60614",
   "city" : "Chicago",
@@ -155,25 +120,6 @@
     "url" : "http://aldermansposato.com/"
   },
   "city_hall_address" : "121 North LaSalle Street, Room 200, Office 2",
-  "city_hall_zipcode" : "60602"
-}
-, {
-  "location" : "POINT (-87.68658173977015 41.88126893284509)",
-  "zipcode" : "60612",
-  "city" : "Chicago",
-  "ward_phone" : "(312) 432-1995",
-  "address" : "4 North Western Avenue, Unit 1C",
-  "state" : "IL",
-  "city_hall_phone" : "(312) 744-6124/6125",
-  "ward" : "27",
-  "city_hall_state" : "IL",
-  "alderman" : "Burnett, Jr., Walter",
-  "city_hall_city" : "Chicago",
-  "email" : "Ward27@cityofchicago.org",
-  "website" : {
-    "url" : "http://aldermanburnett.com/"
-  },
-  "city_hall_address" : "121 North LaSalle Street, Room 300, Office 38",
   "city_hall_zipcode" : "60602"
 }
 , {
@@ -285,6 +231,22 @@
   "city_hall_city" : "Chicago",
   "email" : "Ward21@cityofchicago.org",
   "city_hall_address" : "121 North Lasalle, Room 200",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.74223193063077 41.93170020380832)",
+  "zipcode" : "60639",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 824-2000",
+  "address" : "4606 West Diversey Avenue",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6102/6123",
+  "ward" : "31",
+  "city_hall_state" : "IL",
+  "alderman" : "Cardona, Jr., Felix",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward31@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 200, Office 19",
   "city_hall_zipcode" : "60602"
 }
 , {
@@ -611,6 +573,22 @@
   "city_hall_zipcode" : "60602"
 }
 , {
+  "location" : "POINT (-87.71650804469363 41.93447944793928)",
+  "zipcode" : "60618",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 887-3772",
+  "address" : "2934 North Milwaukee Avenue, Unit C",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6835/3109/6845",
+  "ward" : "35",
+  "city_hall_state" : "IL",
+  "alderman" : "Quezada, Anthony J.",
+  "city_hall_city" : "Chicago",
+  "email" : "ward35@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
   "location" : "POINT (-87.776264015314 41.79346683020117)",
   "zipcode" : "60638",
   "city" : "Chicago",
@@ -843,11 +821,11 @@
   "city_hall_zipcode" : "60602"
 }
 , {
-  "location" : "POINT (-87.77895653994487 41.97351788796481)",
+  "location" : "POINT (-87.77253948587003 41.980733083375114)",
   "zipcode" : "60630",
   "city" : "Chicago",
   "ward_phone" : "(773) 853-0799",
-  "address" : "6020 West Higgins Ave STE C",
+  "address" : "5460 N. Milwaukee Ave",
   "state" : "IL",
   "city_hall_phone" : "(312) 744-6841/5684",
   "ward" : "45",
@@ -862,19 +840,38 @@
   "city_hall_zipcode" : "60602"
 }
 , {
-  "location" : "POINT (-87.71650804469363 41.93447944793928)",
+  "location" : "POINT (-87.63040492438661 41.796234875219376)",
+  "zipcode" : "60621",
+  "city" : "Chicago",
+  "ward_phone" : "(773) 966-5336",
+  "address" : "5401 South Wentworth Avenue, Suite 19E",
+  "state" : "IL",
+  "city_hall_phone" : "(312) 744-6840/5688/7738",
+  "ward" : "20",
+  "city_hall_state" : "IL",
+  "alderman" : "Taylor, Jeanette B.",
+  "city_hall_city" : "Chicago",
+  "email" : "Ward20@cityofchicago.org",
+  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "city_hall_zipcode" : "60602"
+}
+, {
+  "location" : "POINT (-87.68658173977015 41.88126893284509)",
   "zipcode" : "60618",
   "city" : "Chicago",
-  "ward_phone" : "(773) 887-3772",
-  "address" : "2934 North Milwaukee Avenue, Unit C",
+  "ward_phone" : "(312) 432-1995",
+  "address" : "4 North Western Avenue, Unit 1C",
   "state" : "IL",
-  "city_hall_phone" : "(312) 744-6835/3109/6845",
-  "ward" : "35",
+  "city_hall_phone" : "(312) 744-6124/6125",
+  "ward" : "27",
   "city_hall_state" : "IL",
-  "alderman" : "Quezada, Anthony J.",
+  "alderman" : "Burnett, Walter R.",
   "city_hall_city" : "Chicago",
-  "email" : "ward35@cityofchicago.org",
-  "city_hall_address" : "121 North LaSalle Street, Room 300",
+  "email" : "Ward27@cityofchicago.org",
+  "website" : {
+    "url" : "http://aldermanburnett.com/"
+  },
+  "city_hall_address" : "121 North LaSalle Street, Room 300, Office 38",
   "city_hall_zipcode" : "60602"
 }
  ]
