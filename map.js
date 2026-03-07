@@ -64,12 +64,30 @@ for (let key in layer_map) {
   layer_map[key]["layerObject"] = L.layerGroup([]);
 }
 
+function styleLinks(links) {
+  /* Take a list of links in this format:
+   *
+   * links: {
+   *   "Link Name 1": "https://address-one.com",
+   *   "Link Name 2": "https://address-one.com"
+   * }
+   *
+   * and return a bulleted HTML-style text block with each of the links.
+   */
+
+  var text = "<p><ul>";
+
+  for (const [name, address] of Object.entries(links)) {
+    text += `<li><a href=${address} target="_blank">${name}</a></li>`;
+  }
+
+  text += "</ul></p>";
+
+  return text;
+}
 
 /* Parse path data file. */
-let num_paths = 0;
 for (let k in bicycle_paths) {
-  num_paths++;
-
   let path = bicycle_paths[k];
 
   if (path.disabled) {
@@ -113,21 +131,11 @@ for (let k in bicycle_paths) {
       }
 
       // Look for links in both the segment and the whole path.
-      if (path.links && (path.links.length > 0)) {
-        for (let i = 0; i < path.links.length; i++) {
-          // popup_text += `<tr><td>${path.links[i]["name"]}</td><td>${path.links[i]["address"]}</td></tr></table>`;
-          // Never mind. The table looks stupid. Try again later with better bootstrap.
-          popup_text += `<br><b>${path.links[i]["name"]}</b>:<br><a href="${path.links[i]["address"]}" target="_blank">${path.links[i]["address"]}</a>`
-        }
-        // popup_text += "</table>"
+      if (path.links && (Object.keys(path.links).length > 0)) {
+        popup_text += styleLinks(path.links);
       }
-      if (segment.links && (segment.links.length > 0)) {
-        for (let i = 0; i < segment.links.length; i++) {
-          // popup_text += `<tr><td>${path.links[i]["name"]}</td><td>${path.links[i]["address"]}</td></tr></table>`;
-          // Never mind. The table looks stupid. Try again later with better bootstrap.
-          popup_text += `<br><b>${segment.links[i]["name"]}</b>:<br><a href="${segment.links[i]["address"]}" target="_blank">${segment.links[i]["address"]}</a>`
-        }
-        // popup_text += "</table>"
+      if (segment.links && (Object.keys(segment.links).length > 0)) {
+        popup_text += styleLinks(segment.links);
       }
       
       popup_text += '</span>';
