@@ -29,12 +29,10 @@ parser.add_argument("-o", "--output", {
 
 const args = parser.parse_args();
 
-// Load the ward GeoJSON file
-// https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards-2023-/p293-wvbd/data_preview
+// Load the ward GeoJSON file (See Ward Overlay section in README.md for details)
 const wardsGeoJson = JSON.parse(fs.readFileSync(args["mapdata"], 'utf-8'));
 
-// Load the alderman data
-// https://data.cityofchicago.org/resource/c6ie-9e6c.json
+// Load the aldermanic data (See Ward Overlay section in README.md for details)
 const aldermanData = JSON.parse(fs.readFileSync(args["alderdata"], 'utf-8'));
 
 // Create a lookup object for fast access to alderman data by ward number
@@ -65,35 +63,6 @@ function parseAldermanName(fullName) {
   }
 
   return {firstName, lastName}
-
-
-  // if (!fullName) {
-  //   return {firstName: '', lastName: ''};
-  // }
-
-  // // Check if in "Last, First" format
-  // if (fullName.includes(',')) {
-  //   const nameParts = fullName.split(',').map(part => part.trim());
-
-  //   const firstName = nameParts[-1]
-  //   const lastName = 
-
-  //   //const [lastName, firstPart] = fullName.split(',').map(part => part.trim());
-
-  //   // Handle suffixes (i.e. "Jr")
-  //   const firstName = firstPart.split(' ')[0];
-  //   return {firstName, lastName};
-  // }
-  // // Assume "First Last" format otherwise
-  // else {
-  //   const parts = fullName.split(' ');
-  //   if (parts.length >= 2) {
-  //     const lastName = parts[parts.length - 1];
-  //     const firstName = parts.slice(0, parts.length - 1).join(' ');
-  //     return {firstName, lastName};
-  //   }
-  //   return {firstName: '', lastName: fullName};
-  // }
 }
 
 // Build the lookup table
