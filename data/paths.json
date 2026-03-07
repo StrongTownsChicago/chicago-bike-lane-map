@@ -56,12 +56,9 @@
         ],
         "type": "trail_incomplete",
         "description": "(Exact path TBA) Funded by a $2.99 million grant from Illinois Transportation Enhancement Program with 100% local match. Will run from Foley and Wesley to 52nd Street.",
-        "links": [
-          {
-            "name": "Active Transportation Alliance 2025 ITEP Grants",
-            "address": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
-          }
-        ]
+        "links": {
+          "Active Transportation Alliance 2025 ITEP Grants": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
+        }
       }
     ]
   },
@@ -80,12 +77,9 @@
         "type": "trail_incomplete",
         "description": "Algonquin has been awarded a $1.2 million grant from Illinois Transportation Enhancement Program with 100% local match to construct a 1.16-mile path from south of Teri Lane to Route 62.",
         "city": "Algonquin",
-        "links": [
-          {
-            "name": "Active Transportation Alliance 2025 ITEP Grants",
-            "address": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
-          }
-        ]
+        "links": {
+          "Active Transportation Alliance 2025 ITEP Grants": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
+        }
       }
     ]
   },
@@ -104,12 +98,9 @@
         "type": "trail_incomplete",
         "description": "The Illinois Transportation Enhancement Program has awarded the city of Oak Forest, Illinois a grant for $2.3 million with 50% local match to implement a 1.1-mile multi-use path along 151st street.",
         "city": "Oak Forest",
-        "links": [
-          {
-            "name": "Active Transportation Alliance",
-            "address": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
-          }
-        ]
+        "links": {
+          "Active Transportation Alliance": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
+        }
       }
     ]
   },
@@ -220,12 +211,9 @@
           [41.87196917615452, -87.76513671835039]
         ],
         "type": "trail",
-        "links": [
-          {
-            "name": "Austin Neighborhood Bikeways Overview",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/AustinNeigbhorhoodBikeNetwork.html"
-          }
-        ]
+        "links": {
+          "Austin Neighborhood Bikeways Overview": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/AustinNeigbhorhoodBikeNetwork.html"
+        }
       }
     ]
   },
@@ -241,12 +229,9 @@
         "type": "trail_incomplete",
         "description": "The Illinois Transportation Enhancement Program has awarded the city of Des Plaines, Illinois a $1.2 million grant with 50% local match to implement a 0.5-mile multi-use path along Devon Avenue.",
         "city": "Des Plaines",
-        "links": [
-          {
-            "name": "Active Transportation Alliance",
-            "address": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
-          }
-        ]
+        "links": {
+          "Active Transportation Alliance": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
+        }
       }
     ]
   },
@@ -2045,12 +2030,9 @@
         ],
         "type": "trail_incomplete",
         "completion": "Late 2028",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/depts/cdot/supp_info/bloomingdale_trail.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/depts/cdot/supp_info/bloomingdale_trail.html"
+        }
       }
     ]
   },
@@ -3190,12 +3172,9 @@
       }
     ],
     "description": "Construction Update (12/25/2025)<br><br>- Concrete & asphalt work: Complete<br>- Pavement Striping: Anticipated completion by first week of January<br>- Precast Concrete Curbs for Bike Lanes: Anticipated completion by second week of January<br>- Signs & Flexible Delineators: Anticipated to begin the last week of December. Anticipated duration of 2-3 weeks.<br>- Impact Attenuator installation at viaduct south of W 31st Street: Scheduled installation around mid-January 2026.",
-    "links": [
-      {
-        "name": "Project Website",
-        "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ArcherAve47thtoWestern.html"
-      }
-    ]
+    "links": {
+      "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ArcherAve47thtoWestern.html"
+    }
   },
   {
     "name": "Ashland Protected Bike Lane",
@@ -3220,12 +3199,9 @@
         "type": "ripbl",
         "completion": "Fall 2023",
         "description": "Parking-protected, with flexpost bumpouts at intersections for pedestrians. At least they didn't cut away for shared right turn lanes. Just watch out for cars pulling out of alleys.",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/AugustaBlvd2023.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/AugustaBlvd2023.html"
+        }
       }
     ]
   },
@@ -3257,12 +3233,9 @@
         ],
         "type": "pbl_incomplete",
         "completion": "Estimated 2026",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/BrynMawrNorthChanneltoValleyLine.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/BrynMawrNorthChanneltoValleyLine.html"
+        }
       }
     ]
   },
@@ -3278,12 +3251,9 @@
         "type": "ripbl_incomplete",
         "completion": "Delayed, hopefully summer 2025 completion",
         "description": "From the project website:<br><br>\"CDOT is partnering with Ward 30 and Ward 35 to implement Complete Streets safety improvements on Belmont Avenue between Kimball Avenue and Milwaukee Avenue as part of planned street resurfacing. This project will include bike, pedestrian, and transit upgrades and would be installed in 2024.\"<br><br>Was this finished? I have no idea. It said it would be done by the end of 2024. I need to check on this.",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/BelmontAveMilwaukeetoKimball.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/BelmontAveMilwaukeetoKimball.html"
+        }
       },
       {
         "name": "Kimball to Western",
@@ -3294,12 +3264,9 @@
         "type": "ripbl",
         "description": "Some concrete, mostly parking-protected.",
         "completion": "Fall 2023",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/BelmontAve2023.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/BelmontAve2023.html"
+        }
       }
     ]
   },
@@ -3409,12 +3376,9 @@
         "type": "ripbl",
         "completion": "Fall 2023",
         "description": "From the project website:<br><br>\"CDOT will implement protected bike lanes on Central Park between Madison and Franklin Blvd. Additionally, increased pedestrian refuge space will be installed at the main entrance to the Garfield Park Conservatory. The new protected bike lanes will connect to existing protected bike lanes on Franklin Blvd. and Lake Street providing a comfortable route for biking to the Garfield Park Conservatory, Field House, and Park Space. The new protected bike lane is part of a growing network of bike infrastructure in the Garfield Park and Austin neighborhoods.\"",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/CentralParkSafetyImprovements.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/CentralParkSafetyImprovements.html"
+        }
       }
     ]
   },
@@ -3455,12 +3419,9 @@
         "description": "The Illinois Transportation Enhancement Program has awarded the city of Evanston, Illinois a $3 million grant with 100% local match in order to implement a two-way protected cycle track along Chicago Avenue, from the border with Chicago on Howard up to the intersection with Davis.",
         "city": "Evanston",
         "state": "IL",
-        "links": [
-          {
-            "name": "Active Transportation Alliance",
-            "address": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
-          }
-        ]
+        "links": {
+          "Active Transportation Alliance": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
+        }
       }
     ]
   },
@@ -3501,12 +3462,9 @@
         ],
         "type": "ripbl",
         "completion": "Fall 2023",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ClarkStreetBikelaneUpgrades.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ClarkStreetBikelaneUpgrades.html"
+        }
       },
       {
         "name": "Montrose to Winnemac",
@@ -3520,12 +3478,9 @@
         "type": "ripbl_incomplete",
         "completion": "2025",
         "description": "From project website: 'Street improvements are coming to Clark Street between Montrose to Winnemac. These changes will make the street more comfortable for everyone - whether they walk, drive, bike, or take transit - and improve access to local businesses.'",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ClarkMontrosetoWinnemac.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ClarkMontrosetoWinnemac.html"
+        }
       },
       {
         "name": "Oak to Grand",
@@ -3535,12 +3490,9 @@
         ],
         "type": "ripbl",
         "completion": "Summer 2024",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ClarkandDearbornRiverNorth.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ClarkandDearbornRiverNorth.html"
+        }
       }
     ]
   },
@@ -3651,12 +3603,9 @@
         ],
         "type": "pbl",
         "completion": "Fall 2023",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ClarkandDearbornRiverNorth.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/ClarkandDearbornRiverNorth.html"
+        }
       },
       {
         "coordinates": [
@@ -3712,12 +3661,9 @@
         "type": "bikeway",
         "completion": "Fall 2023",
         "description": "<br><ul><li>20mph speed limit</li><li>Speed humps</li><li>Curb extensions</li><li>Raised crosswalks</li><li>Painted contraflow bike lane</li></ul>",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/DickensNeighborhoodGreenway.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/DickensNeighborhoodGreenway.html"
+        }
       }
     ]
   },
@@ -3733,12 +3679,9 @@
         "type": "ripbl_incomplete",
         "description": "Originally this was supposed to be completed alongside the Kedzie to California section. Delayed due to pushback from the alderwoman and certain community members.",
         "completion": "Delayed until at least <b>2026</b>",
-        "links": [
-          {
-            "name": "Project Website, Complete Streets safety improvements for Division Street",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/DivisionStGrandtoCalifornia.html"
-          }
-        ]
+        "links": {
+          "Project Website: Complete Streets safety improvements for Division Street": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/DivisionStGrandtoCalifornia.html"
+        }
       },
       {
         "name": "Kedzie to California",
@@ -3747,12 +3690,9 @@
           [41.90296482052327, -87.69689631245951]
         ],
         "type": "ripbl",
-        "links": [
-          {
-            "name": "Project Website, Complete Streets safety improvements for Division Street",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/DivisionStGrandtoCalifornia.html"
-          }
-        ]
+        "links": {
+          "Project Website, Complete Streets safety improvements for Division Street": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/DivisionStGrandtoCalifornia.html"
+        }
       },
       {
         "name": "Halsted to Orleans",
@@ -3865,12 +3805,9 @@
         "type": "pbl",
         "completion": "2024",
         "description": "Complete Streets safety improvements have been installed on Grand Avenue between Chicago Avenue and Damen Avenue to make the street safer and more inviting for everyone — no matter how you get around — and improve neighborhood access to local businesses. Construction is upcoming on the next segment of the project — Grand Avenue from Damen Avenue to Ogden Avenue.",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/GrandAveChicagotoOgden.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/GrandAveChicagotoOgden.html"
+        }
       },
       {
         "name": "Grand Avenue Safety Improvements, Damen to Ogden",
@@ -3880,12 +3817,9 @@
         ],
         "type": "ripbl_incomplete",
         "description": "Complete Streets safety improvements have been installed on Grand Avenue between Chicago Avenue and Damen Avenue to make the street safer and more inviting for everyone — no matter how you get around — and improve neighborhood access to local businesses. Construction is upcoming on the next segment of the project — Grand Avenue from Damen Avenue to Ogden Avenue.",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/GrandAveChicagotoOgden.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/GrandAveChicagotoOgden.html"
+        }
       }
     ]
   },
@@ -3900,16 +3834,10 @@
         "type": "bikeway_incomplete",
         "description": "CDOT is implementing traffic calming on Granville, including converting parts of the street to one-way with counterflow bicycle lanes. It's not perfect but it's an improvement over what is currently there, and some sections will have concrete protection, so it qualifies for the map.",
         "completion": "Estimated Summer 2025",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/GranvilleCompleteStreets.html"
-          },
-          {
-            "name": "Streetsblog Chicago",
-            "address": "https://chi.streetsblog.org/2025/02/14/a-valentines-gift-for-livable-streets-cdot-is-moving-forward-with-safety-plan-for-granville-avenue-currently-a-crash-prone-cut-through-route"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/GranvilleCompleteStreets.html",
+          "Streetsblog Chicago": "https://chi.streetsblog.org/2025/02/14/a-valentines-gift-for-livable-streets-cdot-is-moving-forward-with-safety-plan-for-granville-avenue-currently-a-crash-prone-cut-through-route"
+        }
       }
     ]
   },
@@ -4140,12 +4068,9 @@
         ],
         "type": "pbl_incomplete",
         "completion": "Construction start in 2025, end date unknown",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/HumboldtBlvdGrandtoNorth.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/HumboldtBlvdGrandtoNorth.html"
+        }
       }
     ]
   },
@@ -4162,12 +4087,9 @@
         "city": "Chicago",
         "description": "One-way protected bike lane included as part of a resurfacing project. Original project would only go from 31st to 35th, but new plan will extend the bicycle lane all the way to Garfield (55th) street.<br><br>New concrete curbs and paint.",
         "type": "pbl",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/IndianaAve35thto31st.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/IndianaAve35thto31st.html"
+        }
       }
     ]
   },
@@ -4237,12 +4159,9 @@
         "type": "ripbl",
         "completion": "Fall 2023",
         "description": "For some inconceivable reason, they made this a one-way bike lane. Only goes west to east.",
-        "links": [
-          {
-            "name": "Project Website, Jackson Boulevard Upgrades",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/JacksonBoulevard.html"
-          }
-        ]
+        "links": {
+          "Project Website, Jackson Boulevard Upgrades": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/JacksonBoulevard.html"
+        }
       }
     ]
   },
@@ -4257,12 +4176,9 @@
         ],
         "type": "ripbl",
         "completion": "2023",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/KedzieAve2023.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/KedzieAve2023.html"
+        }
       },
       {
         "name": "28th to Archer",
@@ -4276,12 +4192,9 @@
         ],
         "type": "ripbl_incomplete",
         "description": "Parking-protected<br><br><b>Construction Update (12/25/2025)</b><br>- Concrete & asphalt work: Complete<br>- Pavement Striping: Anticipated completion by first week of January<br>- Precast Concrete Curbs for Bike Lanes: Anticipated completion by second week of January<br>- Signs & Flexible Delineators: Anticipated to begin the last week of December. Anticipated duration of 2-3 weeks.<br>- Impact Attenuator installation at viaduct south of W 31st Street: Scheduled installation around mid-January 2026.",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/KedzieAveArcherto31st.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/KedzieAveArcherto31st.html"
+        }
       }
     ]
   },
@@ -4380,12 +4293,9 @@
         "type": "bikeway",
         "completion": "Fall 2023",
         "description": "<br><ul><li>20mph speed limit</li><li>Speed humps</li><li>Curb extensions</li><li>Painted contraflow bike lane</li></ul>",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LeavittNeighborhoodGreenway.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LeavittNeighborhoodGreenway.html"
+        }
       }
     ]
   },
@@ -4402,12 +4312,9 @@
         ],
         "type": "bikeway",
         "completion": "2024",
-        "links": [
-          {
-            "name": "Project Website, Leland Neighborhood Greenway",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LelandNeighborhoodGreenway.html"
-          }
-        ]
+        "links": {
+          "Project Website, Leland Neighborhood Greenway": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LelandNeighborhoodGreenway.html"
+        }
       },
       {
         "name": "Western to Lincoln",
@@ -4423,12 +4330,9 @@
         ],
         "type": "bikeway_incomplete",
         "completion": "2025",
-        "links": [
-          {
-            "name": "Project Website, Leland Neighborhood Greenway",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LelandNeighborhoodGreenway.html"
-          }
-        ]
+        "links": {
+          "Project Website, Leland Neighborhood Greenway": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LelandNeighborhoodGreenway.html"
+        }
       },
       {
         "name": "Lincoln to Clark",
@@ -4439,12 +4343,9 @@
         ],
         "type": "bikeway",
         "completion": "2024",
-        "links": [
-          {
-            "name": "Project Website, Leland Neighborhood Greenway",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LelandNeighborhoodGreenway.html"
-          }
-        ]
+        "links": {
+          "Project Website, Leland Neighborhood Greenway": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LelandNeighborhoodGreenway.html"
+        }
       }
     ]
   },
@@ -4471,16 +4372,10 @@
         ],
         "type": "ripbl_incomplete",
         "completion": "2025",
-        "links": [
-          {
-            "name": "Complete Streets Website",
-            "address": "https://chicagocompletestreets.org/portfolio/lincoln-avenue-streetscape-and-plaza/"
-          },
-          {
-            "name": "40th Ward Website",
-            "address": "https://40thward.org/project/lincoln-avenue-north-streetscape-plaza/"
-          }
-        ]
+        "links": {
+          "Complete Streets Website": "https://chicagocompletestreets.org/portfolio/lincoln-avenue-streetscape-and-plaza/",
+          "40th Ward Website": "https://40thward.org/project/lincoln-avenue-north-streetscape-plaza/"
+        }
       },
       {
         "name": "Phase 1, Foster to Berwyn",
@@ -4493,16 +4388,10 @@
         ],
         "type": "ripbl",
         "completion": "2024",
-        "links": [
-          {
-            "name": "Complete Streets Website",
-            "address": "https://chicagocompletestreets.org/portfolio/lincoln-avenue-streetscape-and-plaza/"
-          },
-          {
-            "name": "40th Ward Website",
-            "address": "https://40thward.org/project/lincoln-avenue-north-streetscape-plaza/"
-          }
-        ]
+        "links": {
+          "Complete Streets Website": "https://chicagocompletestreets.org/portfolio/lincoln-avenue-streetscape-and-plaza/",
+          "40th Ward Website": "https://40thward.org/project/lincoln-avenue-north-streetscape-plaza/"
+        }
       }
     ]
   },
@@ -4545,12 +4434,9 @@
           [41.94594928145243, -87.76183473839325],
           [41.938644187842634, -87.76158872634966]
         ],
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LongAveBelmonttoIrvingPark.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/LongAveBelmonttoIrvingPark.html"
+        }
       }
     ]
   },
@@ -4601,12 +4487,9 @@
           [41.95343097474564, -87.74731604529998]
         ],
         "type": "pbl",
-        "links": [
-          {
-            "name": "Milwaukee Corridor Overview",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
-          }
-        ]
+        "links": {
+          "Milwaukee Corridor Overview": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
+        }
       },
       {
         "name": "Addison to Belmont",
@@ -4616,16 +4499,10 @@
         ],
         "type": "pbl_incomplete",
         "completion": "(unknown)",
-        "links": [
-          {
-            "name": "Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/MilwaukeeAvenueBelmonttoAddison.html"
-          },
-          {
-            "name": "Milwaukee Corridor Overview",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
-          }
-        ]
+        "links": {
+          "Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/MilwaukeeAvenueBelmonttoAddison.html",
+          "Milwaukee Corridor Overview": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
+        }
       },
       {
         "name": "Logan Square to North Avenue",
@@ -4634,20 +4511,11 @@
           [41.91048595946905, -87.67755671474244],
           [41.92809959271845, -87.70579927816118]
         ],
-        "links": [
-          {
-            "name": "Project Website, Logan to California",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/MilwaukeeAvenueCaliforniatoLogan.html"
-          },
-          {
-            "name": "Project Website, Campbell to North Avenue",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/MilwaukeeAvenueNorthtoCampbell.html"
-          },
-          {
-            "name": "Milwaukee Corridor Overview",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
-          }
-        ]
+        "links": {
+          "Project Website, Logan to California": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/MilwaukeeAvenueCaliforniatoLogan.html",
+          "Project Website, Campbell to North Avenue": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/MilwaukeeAvenueNorthtoCampbell.html",
+          "Milwaukee Corridor Overview": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
+        }
       },
       {
         "name": "Ashland to Chicago",
@@ -4656,12 +4524,9 @@
           [41.89626872506386, -87.65546954226033]
         ],
         "type": "pbl",
-        "links": [
-          {
-            "name": "Milwaukee Corridor Overview",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
-          }
-        ]
+        "links": {
+          "Milwaukee Corridor Overview": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
+        }
       },
       {
         "name": "Chicago to Kinzie",
@@ -4671,16 +4536,10 @@
           [41.8890600358325, -87.64435503109901]
         ],
         "type": "pbl",
-        "links": [
-          {
-            "name": "2025 Upgrade Project Website",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/MilwaukeeAvenueKinzietoChicago.html"
-          },
-          {
-            "name": "Milwaukee Corridor Overview",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
-          }
-        ]
+        "links": {
+          "2025 Upgrade Project Website": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/MilwaukeeAvenueKinzietoChicago.html",
+          "Milwaukee Corridor Overview": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/milwaukee-avenue-corridor.html"
+        }
       }
     ]
   },
@@ -4696,12 +4555,9 @@
         ],
         "type": "pbl_incomplete",
         "description": "CDOT has been awarded a $3 million grant from the the Illinois Transportation Enhancement Program to \"convert excess vehicle space to off-street bike alnes, pedestrian refuge islands, bump-outs and bus-stop improvements\". No further information about the project is currently available.",
-        "links": [
-          {
-            "name": "Active Transportation Alliance",
-            "address": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
-          }
-        ]
+        "links": {
+          "Active Transportation Alliance": "https://activetrans.org/blog/139m-for-walking-biking-and-trails-just-announced-from-illinois/"
+        }
       }
     ]
   },
@@ -4768,12 +4624,9 @@
         "description": "Proposed, not yet in planning.<br><br>Mentioned during the 2025 40th Ward Development and Infrastructure Town Hall, as part of the Far North Side Bicycle Network Plan.",
         "type": "ripbl_incomplete",
         "completion": "2025",
-        "links": [
-          {
-            "name": "40th Ward Development and Infrastructure Town Hall Summary",
-            "address": "https://40thward.org/2025/05/2025-development-and-infrastructure-town-hall/"
-          }
-        ]
+        "links": {
+          "40th Ward Development and Infrastructure Town Hall Summary": "https://40thward.org/2025/05/2025-development-and-infrastructure-town-hall/"
+        }
       }
     ]
   },
@@ -4984,16 +4837,10 @@
         "type": "bikeway",
         "description": "Receiving upgrades in 2025, including one-way conversion for car traffic, street resurfacing, curb ramp replacements, and gutter replacements.",
         "completion": "2025",
-        "links": [
-          {
-            "name": "1st Ward Website",
-            "address": "https://www.the1stward.com/woodst"
-          },
-          {
-            "name": "Complete Streets",
-            "address": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/WoodStGreenway.html"
-          }
-        ]
+        "links": {
+          "1st Ward Website": "https://www.the1stward.com/woodst",
+          "Complete Streets": "https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/WoodStGreenway.html"
+        }
       }
     ]
   },
@@ -5144,19 +4991,10 @@
       }
    ],
    "type":"bikeway_incomplete",
-   "links":[
-      {
-         "name":"Project Website",
-         "address":"https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/PortageParkNeighborhoodBikeNetwork.html"
-      },
-      {
-         "name":"Online Survey",
-         "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUM1JOUjhQWUJSTzhCMlNCSTJQQUlFSkw2Vy4u"
-      },
-      {
-         "name":"Community Meeting RSVP (Thursday, March 5, 2026)",
-         "address":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUQ1lXSE1WR0laMTZUQVVSV1ZINUIwOEYzSi4u"
-      }
-    ]
+   "links": {
+      "Project Website":"https://www.chicago.gov/city/en/sites/complete-streets-chicago/home/featured-projects-and-innovations/projects0/PortageParkNeighborhoodBikeNetwork.html",
+      "Online Survey":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUM1JOUjhQWUJSTzhCMlNCSTJQQUlFSkw2Vy4u",
+      "Community Meeting RSVP (Thursday, March 5, 2026)":"https://forms.office.com/Pages/ResponsePage.aspx?id=qc02cC0GUUGBRJfdxW5wJ-ti1pOWYB1DhlKSL8sZWklUQ1lXSE1WR0laMTZUQVVSV1ZINUIwOEYzSi4u"
+    }
   }
 ]
