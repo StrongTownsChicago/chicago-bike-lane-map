@@ -87,10 +87,7 @@ function styleLinks(links) {
 }
 
 /* Parse path data file. */
-let num_paths = 0;
 for (let k in bicycle_paths) {
-  num_paths++;
-
   let path = bicycle_paths[k];
 
   if (path.disabled) {
