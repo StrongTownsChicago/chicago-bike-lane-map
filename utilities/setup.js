@@ -55,6 +55,8 @@ if (proceed) {
             "smtp_server" => "${smtp_hostname}",
             "smtp_username" => "${smtp_username}",
             "smtp_password" => "${smtp_password}",
+            "port" => 465,
+            "security" => "ssl",
             "destination" => "${smtp_destination}"
         ),
         "in_progress" => FALSE,

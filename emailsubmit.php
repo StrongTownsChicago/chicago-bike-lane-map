@@ -48,10 +48,10 @@
     $mail->Username = $config["mail"]["smtp_username"]; // This is SPECIFICALLY for logging into the SMTP server. This usually will match the address you're sending to, but it doesn't have to! You can set the destination address to anything you want.
     $mail->Password = $config["mail"]["smtp_password"]; // Again, this is for logging into the SMTP server. Your email will not send if your password is incorrect.
 
-    $mail->SMTPSecure = 'ssl';                  // Enable TLS encryption, `ssl` also accepted 
+    $mail->SMTPSecure = $config["mail"]["security"];                  // Enable TLS encryption, `ssl` also accepted 
     // ^ Try TLS encryption once I'm confident.
 
-    $mail->Port = 465;                          // TCP port to connect to 
+    $mail->Port = $config["mail"]["port"];                          // TCP port to connect to 
     $mail->addReplyTo($emailFrom, $name);       // The address that it should *look* like the email is coming from.
     $mail->setFrom($config["mail"]["smtp_username"]); // The address that you are ACTUALLY sending the email from.
     /* After further reading, it seems like the setFrom address must 
