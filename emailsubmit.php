@@ -29,15 +29,7 @@
   $proceed = TRUE;
 
   // Check for banned words
-  $banned_words = [
-    " AI ",
-    " AI-",
-    " SEO ",
-    " ads ",
-    "desktop traffic",
-    "Bank Account",
-    "Unsubscribe:"
-  ];
+  $banned_words = json_decode(file_get_contents("./data/banned-email-words.json"), true);
   for ($i = 0; $i < count($banned_words); $i++) {
     if (str_contains($message, $banned_words[$i])) {
       $proceed = FALSE;
@@ -102,9 +94,6 @@
 
     <!--Leaflet script -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-    <!-- Style for the map box on this page -->
-    <link rel="stylesheet" href="custom.css">
   </head>
   <body>
 
