@@ -29,12 +29,10 @@ parser.add_argument("-o", "--output", {
 
 const args = parser.parse_args();
 
-// Load the ward GeoJSON file
-// https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards-2023-/p293-wvbd/data_preview
+// Load the ward GeoJSON file (See Ward Overlay section in README.md for details)
 const wardsGeoJson = JSON.parse(fs.readFileSync(args["mapdata"], 'utf-8'));
 
-// Load the alderman data
-// https://data.cityofchicago.org/resource/c6ie-9e6c.json
+// Load the aldermanic data (See Ward Overlay section in README.md for details)
 const aldermanData = JSON.parse(fs.readFileSync(args["alderdata"], 'utf-8'));
 
 // Create a lookup object for fast access to alderman data by ward number
@@ -42,30 +40,29 @@ const aldermanByWard = {};
 
 // Function to better parse alderman names from various formats
 function parseAldermanName(fullName) {
-  // var name = {};
+  var firstName = "";
+  var lastName = "";
 
-  if (!fullName) {
-    return {firstName: '', lastName: ''};
-  }
+  if (fullName) {
+    if (fullName.includes(',')) {
+      // <Last, First> format
+      const nameParts = fullName.split(",").map(part => part.trim())
 
-  // Check if in "Last, First" format
-  if (fullName.includes(',')) {
-    const [lastName, firstPart] = fullName.split(',').map(part => part.trim());
+      console.log(nameParts)
 
-    // Handle suffixes (i.e. "Jr")
-    const firstName = firstPart.split(' ')[0];
-    return {firstName, lastName};
-  }
-  // Assume "First Last" format otherwise
-  else {
-    const parts = fullName.split(' ');
-    if (parts.length >= 2) {
-      const lastName = parts[parts.length - 1];
-      const firstName = parts.slice(0, parts.length - 1).join(' ');
-      return {firstName, lastName};
+      firstName = nameParts[nameParts.length - 1] // First name is the last element of the array
+      lastName = nameParts.slice(0, -1).join(", ")
     }
-    return {firstName: '', lastName: fullName};
+    else {
+      // <First Last> format
+      const nameParts = fullName.split(" ").map(part => part.trim())
+
+      firstName = nameParts[0]
+      lastName = nameParts.slice(1).join(" ")
+    }
   }
+
+  return {firstName, lastName}
 }
 
 // Build the lookup table
